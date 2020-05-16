@@ -53,7 +53,10 @@ nav ul li{
     border-bottom: 3px solid transparent;  
 }
 nav ul li:hover{
-    border-bottom-color: red;
+    border-bottom-color: #FEC600;
+}
+nav ul li:hover a{
+    color: #FEC600;
 }
 nav ul li a{
     text-decoration: none;
@@ -70,7 +73,7 @@ nav ul li a{
     right: 0;
     height: 1px;
     width: 100%;
-    background: green;
+    background: #40310B;
     z-index: 0;
 }
 /*==============collapse================*/
