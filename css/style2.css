@@ -28,6 +28,13 @@ body,
         padding-right: 375px;
     }
 }
+@media only screen and(max-width:1920px) {
+    nav {
+    }
+}
+
+
+
 
 /*
 @media only screen and(width:1920px){
@@ -41,6 +48,9 @@ body,
 }
 }
 */
+
+
+
 /*
    =================================================================================
                                        menu-section
@@ -65,8 +75,8 @@ body,
 /*---------nav-scroll-style-end--*/
 nav {
     overflow: hidden;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
     position: relative;
 }
 
