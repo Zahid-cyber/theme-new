@@ -107,20 +107,17 @@ nav ul li {
 nav ul li:hover {
     border-bottom-color: #FEC600;
 }
-
-nav ul li:hover a {
-    color: #FEC600;
-}
-
 nav ul li a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 900;
     color: white;
     letter-spacing: 1px;
     z-index: 9999;
 }
-
+nav ul li:hover a {
+    color: #FEC600;
+}
 .border-center {
     position: absolute;
     bottom: 1px;
@@ -192,7 +189,7 @@ nav ul li a {
 .slider-content{
     text-align: center;
 }
-.slider-content .first-title{
+.first-title{
     font-size: 36px;
     font-weight: normal;
     line-height: 0;
@@ -203,7 +200,7 @@ nav ul li a {
     padding-top: 22px;
     padding-bottom: 30px;
 }
-.slider-content p{
+p{
     line-height: 24px;
     padding-bottom:60px; 
     font-size: 18px;
@@ -232,7 +229,14 @@ nav ul li a {
 .about-us {
     height: 100vh;
 }
-
+.about-us .heading-text{
+    text-align: center;
+    width: 570px;
+    margin: auto;
+}
+.about-us .first-title{
+    padding: 50px;
+}
 /*
    =================================================================================
                                        -section
