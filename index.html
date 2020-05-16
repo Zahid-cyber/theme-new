@@ -18,7 +18,12 @@
    =================================================================================
    -->
     <section class="menu-section">
-        <nav>
+       <!---------nav-scroll-style-->
+       
+       <style>
+               <!---------nav-scroll-style-->
+        </style>
+        <nav class="nav-scroll-primary">
             <div class="brand">
                 <img src="./img/logo/Logo%20White.png" alt="" class="logo">
             </div>
@@ -78,6 +83,21 @@
    =================================================================================
    -->
     <section class="contact-us"></section>
+    
+    <script>
+       // navbar background color change on scroll
+
+    $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if(scroll < 500){
+            $('nav').addClass('nav-scroll-primary');
+            $('nav').removeClass('nav-scroll-secondary');
+        } else{            
+            $('nav').addClass('nav-scroll-secondary');
+            $('nav').removeClass('nav-scroll-primary');
+        }
+    });
+    </script>
 </body>
 
 </html>

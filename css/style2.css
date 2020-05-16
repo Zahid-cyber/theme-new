@@ -18,8 +18,13 @@ body,.menu-section{
     left: 0;
     z-index: 999999;
 }
-nav{
+.nav-scroll-primary{
     background: rgba(0, 0, 0, 0);
+}
+.nav-scroll-secondary{
+    background: rgba(0, 0, 0, 0.99);
+}
+nav{
     overflow: hidden;
     //padding: 30px 375px;
     //padding-top: 30px;
