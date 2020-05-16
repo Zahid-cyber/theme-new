@@ -49,10 +49,28 @@
             <polygon fill="#FFFFFF" points="0,100 1920,-0.7 1920,100 0,100 0,100 " />
         </svg>
         <div class="slider">
-        <div class="slider-icon-section">
-           <div class="prev">prevew icon</div>
-           <div class="next">next icon</div>
-        </div>
+            <!--slider-->
+            <div class="slider-icon-section">
+                <!--slider prev-next btn-->
+                <div class="prev">                    
+                        <i class="fas fa-arrow-circle-left"></i>
+                </div>
+                <div class="next">
+                        <i class="fas fa-arrow-circle-right" ></i>
+                    </div>
+                <!--slider-content-->
+                <div class="slider-content  center-all">
+                    <slider-title center-all>
+                        <h2 class="first-title">We are Creative</h2>
+                        <h2 class="second-title">We are Creative</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <div class="slider-button">
+                            <button class="slider-btn slider-btn-1">view more</button>
+                            <button class="slider-btn slider-btn-2">here us</button>
+                        </div>
+                    </slider-title>
+                </div>
+            </div>
         </div>
     </section>
     <!--
@@ -85,22 +103,23 @@
    =================================================================================
    -->
     <section class="contact-us"></section>
-    
-    <script>
-       // navbar background color change on scroll
 
-    $(window).scroll(function(){
-        var scroll = $(window).scrollTop();
-        if(scroll < 200){
-            $('nav').addClass('nav-scroll-primary');
-            $('nav').removeClass('nav-scroll-secondary');
-        } else{            
-            $('nav').addClass('nav-scroll-secondary');
-            $('nav').removeClass('nav-scroll-primary');
-        }
-    });
+    <script>
+        // navbar background color change on scroll
+
+        $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+            if (scroll < 200) {
+                $('nav').addClass('nav-scroll-primary');
+                $('nav').removeClass('nav-scroll-secondary');
+            } else {
+                $('nav').addClass('nav-scroll-secondary');
+                $('nav').removeClass('nav-scroll-primary');
+            }
+        });
+
     </script>
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </body>
 
