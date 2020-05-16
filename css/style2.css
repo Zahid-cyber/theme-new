@@ -189,6 +189,9 @@ nav ul li:hover a {
 .slider-content{
     text-align: center;
 }
+.slider-content .first-title{    
+    padding-top: 130px;
+}
 .first-title{
     font-size: 36px;
     font-weight: normal;
