@@ -19,12 +19,10 @@ body,.menu-section{
     z-index: 999999;
 }
 .nav-scroll-primary{
-   // background: rgba(0, 0, 0, 0);
-    background: red;
+    background: rgba(0, 0, 0, 0);
 }
 .nav-scroll-secondary{
-   // background: rgba(0, 0, 0, 0.99);
-    background: green;
+    background: rgba(0, 0, 0, 0.99);
 }
 nav{
     overflow: hidden;
