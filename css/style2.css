@@ -241,8 +241,13 @@ p{
                                        about-us-section
    =================================================================================
 */
+
+
+/*---------about us heading part------------------*/
+
 .about-us {
     height: 100vh;
+    background: white;
 }
 .about-us .heading-text{
     text-align: center;
@@ -260,8 +265,64 @@ p{
 .about-us p{
     color: black;    
 }
+
+
+/*-----------about us circle design part----------------*/
+
 .about-us .design{
     position: relative;
+    padding: 440px 0;
+    overflow: hidden;
+}
+.about-us .img-cover{
+    padding: 15px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+.about-us .design .img{
+    float:left;
+    position: relative;
+    padding: 25px;
+    border-radius: 50%;
+    border: 1px solid black;
+    //background: red;
+}
+.about-us .design .img img{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+}
+/*------circle--------*/
+
+.about-us .design .circle{
+    padding: 10px;
+    background: #444444;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 99999;
+}
+.about-us .design .circle:hover{
+    background: #FEC600;
+}
+/*----circle side----*/
+.about-us .design .circle-top{ 
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.about-us .design .circle-bottom{ 
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.about-us .design .circle-right{ 
+    top: 50%;
+    right:-1%;
+    transform: translate(-50%,-50%);
+}
+.about-us .design .circle-left{ 
+    left: 50%;
+    bottom: -1%;
+    transform: translate(-50%,-50%);
 }
 /**/
 /*
