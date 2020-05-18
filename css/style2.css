@@ -198,8 +198,6 @@ nav ul li:hover a {
 }
 .slider-content .first-title{    
     padding-top: 130px;
-}
-.first-title{
     font-size: 36px;
     font-weight: normal;
     line-height: 0;
@@ -211,12 +209,14 @@ nav ul li:hover a {
     padding-top: 22px;
     padding-bottom: 30px;
 }
+.slider-content p{
+    color: white;    
+}
 p{
     line-height: 24px;
     padding-bottom:60px; 
     font-size: 18px;
     font-weight: normal;
-    color: white;
 }
 .slider-content .slider-btn{
     padding: 16px;
@@ -249,6 +249,12 @@ p{
 .about-us .first-title{
     padding: 50px;
     color: black;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 0;
+}
+.about-us p{
+    color: black;    
 }
 /*
    =================================================================================
