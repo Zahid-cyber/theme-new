@@ -9,6 +9,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+section{
+    position: relative;
+}
 
 /*
    =================================================================================
@@ -245,6 +248,7 @@ p{
     text-align: center;
     width: 570px;
     margin: auto;
+    position: relative;
 }
 .about-us .first-title{
     padding: 50px;
@@ -256,6 +260,10 @@ p{
 .about-us p{
     color: black;    
 }
+.about-us .design{
+    position: relative;
+}
+/**/
 /*
    =================================================================================
                                        -section
