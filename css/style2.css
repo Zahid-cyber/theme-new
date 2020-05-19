@@ -3,14 +3,63 @@
     padding: 0;
 }
 
-.center-all{    
+.center-all {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-section{
+
+section {
     position: relative;
+}
+
+
+.white {
+    color: white;
+}
+
+p {
+    line-height: 24px;
+    padding-bottom: 60px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+.heading-text {
+    text-align: center;
+    width: 570px;
+    margin: auto;
+    position: relative;
+}
+
+.first-title {
+    padding-top: 150px;
+    padding: 50px;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 0;
+}
+.first-title-2 {
+    padding: 150px 50px 50px;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 0;
+}
+
+svg#Layer_1 {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+svg#Layer_3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+
 }
 
 /*
@@ -31,9 +80,9 @@ body,
         padding-right: 375px;
     }
 }
+
 @media only screen and(max-width:1920px) {
-    nav {
-    }
+    nav {}
 }
 
 
@@ -110,6 +159,7 @@ nav ul li {
 nav ul li:hover {
     border-bottom-color: #FEC600;
 }
+
 nav ul li a {
     text-decoration: none;
     font-size: 16px;
@@ -118,9 +168,11 @@ nav ul li a {
     letter-spacing: 1px;
     z-index: 9999;
 }
+
 nav ul li:hover a {
     color: #FEC600;
 }
+
 .border-center {
     position: absolute;
     bottom: 1px;
@@ -149,14 +201,6 @@ nav ul li:hover a {
     background-blend-mode: overlay;
 }
 
-.slider-section svg {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-.slider-section svg polygon {}
 
 /*==============slider================*/
 .slider-section .slider {
@@ -164,6 +208,7 @@ nav ul li:hover a {
     height: 100%;
     position: relative;
 }
+
 /*-------slider-icon secton------*/
 .slider .slider-icon-section {
     width: 100%;
@@ -173,55 +218,54 @@ nav ul li:hover a {
     top: 50%;
     z-index: 99;
 }
+
 /*-----------toggle--------------*/
-.slider .prev,.slider  .next{   
+.slider .prev,
+.slider .next {
     font-size: 40pt;
     position: relative;
     overflow: hidden;
-}  
-.slider .slider-icon-section .prev:hover,.slider .slider-icon-section .next:hover{  
+}
+
+.slider .slider-icon-section .prev:hover,
+.slider .slider-icon-section .next:hover {
     color: yellow;
 }
-.slider  .prev {
-     float: left;
+
+.slider .prev {
+    float: left;
     margin-left: 60px;
 }
 
-.slider  .next {
+.slider .next {
     float: right;
     margin-right: 60px;
 }
 
-.slider .slider-icon-section i{
+.slider .slider-icon-section i {
     position: relative;
 }
+
 /*-------slider-content secton------*/
-.slider-content{
+.slider-content {
     text-align: center;
 }
-.slider-content .first-title{    
+
+ .first-title-slide{
     padding-top: 130px;
     font-size: 36px;
     font-weight: normal;
     line-height: 0;
     color: white;
 }
-.slider-content .second-title{
+.second-title-slide {
     font-size: 55px;
     color: #FEC600;
     padding-top: 22px;
     padding-bottom: 30px;
 }
-.slider-content p{
-    color: white;    
-}
-p{
-    line-height: 24px;
-    padding-bottom:60px; 
-    font-size: 18px;
-    font-weight: normal;
-}
-.slider-content .slider-btn{
+
+.slider-content .slider-btn {
     padding: 16px;
     border: 1px solid white;
     color: white;
@@ -230,7 +274,8 @@ p{
     font-size: 18px;
     margin: 10px;
 }
-.slider-content .slider-btn:hover{
+
+.slider-content .slider-btn:hover {
     border: 1px solid #FEC600;
     color: black;
     background: #FEC600;
@@ -246,177 +291,244 @@ p{
 /*---------about us heading part------------------*/
 
 .about-us {
-    height: 100vh;
     background: white;
+    //background: red;
 }
-.about-us .heading-text{
-    text-align: center;
-    width: 570px;
-    margin: auto;
-    position: relative;
-}
-.about-us .first-title{
-    padding: 50px;
-    color: black;
-    font-size: 36px;
-    font-weight: normal;
-    line-height: 0;
-}
-.about-us p{
-    color: black;    
-}
+
+
 
 
 /*-----------about us circle design part----------------*/
 
-.about-us .design{
+.about-us .design {
     position: relative;
     padding: 440px 0;
     overflow: hidden;
 }
-.about-us .img-cover{
+
+.about-us .img-cover {
     padding: 15px;
     position: relative;
     float: left;
 }
-.about-us .design .img{
-    float:left;
+
+.about-us .design .img {
+    float: left;
     position: relative;
     padding: 15px;
     border-radius: 50%;
     border: 1px solid black;
 }
-.about-us .design .img img{
+
+.about-us .design .img img {
     width: 320px;
     height: 320px;
     border-radius: 50%;
 }
+
 /*------circle--------*/
 
-.about-us .design .circle{
+.about-us .design .circle {
     padding: 10px;
     background: #444444;
     border-radius: 50%;
     position: absolute;
     z-index: 99999;
 }
-.about-us .design .circle:hover{
+
+.about-us .design .circle:hover {
     background: #FEC600;
 }
+
 /*----circle side----*/
 
-.about-us .design .circle-top{ 
+.about-us .design .circle-top {
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
-.about-us .design .circle-bottom{ 
-    
+
+.about-us .design .circle-bottom {
+
     left: 50%;
     bottom: -1%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
-.about-us .design .circle-right{ 
+
+.about-us .design .circle-right {
     top: 50%;
-    right:-1%;
-    transform: translate(-50%,-50%);
+    right: -1%;
+    transform: translate(-50%, -50%);
 }
-.about-us .design .circle-left{ 
-    
+
+.about-us .design .circle-left {
+
     top: 50%;
-    transform: translate(-50%,-50%);
-    
+    transform: translate(-50%, -50%);
+
 }
+
 /*--circle content top---*/
-.about-us .design .content-top{
+.about-us .design .content-top {
     position: absolute;
     bottom: 100%;
     transform: translateX(-50%);
-    min-width:370px; 
-    min-height:225px;
+    min-width: 370px;
+    min-height: 225px;
     background-image: url(../img/about/Background%20Shape.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    
-    
-}
-.about-us .design .circle-title-content{
-    position:inherit;
-    width: 100%;
-    height: 100%;
-    padding: 5px;
-}
-.about-us .design .circle-title-content .content-body{
-     margin: 37px 30px; 
-    text-align: center;
+
+
 }
 
 
 /*--circle content bottom---*/
-.about-us .design .content-bottom{
+.about-us .design .content-bottom {
     position: absolute;
     overflow: hidden;
     top: 100%;
     transform: translateX(-50%);
-    
-    
-    min-width:370px; 
-    min-height:225px;
+
+
+    min-width: 370px;
+    min-height: 225px;
     background-image: url(../img/about/bottom%20Background%20Shape.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    
+
 }
+
 /*--circle content right---*/
-.about-us .design .content-right{
+.about-us .design .content-right {
     position: absolute;
     overflow: hidden;
     left: 100%;
     transform: translateY(-50%);
-    
-    
-    min-width:385px; 
-    min-height:210px;
+
+
+    min-width: 385px;
+    min-height: 210px;
     background-image: url(../img/about/right%20Background%20Shape.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    
+
 }
+
 /*--circle content left---*/
-.about-us .design .content-left{
+.about-us .design .content-left {
     position: absolute;
     overflow: hidden;
     right: 100%;
     transform: translateY(-50%);
-    
-    
-    min-width:385px; 
-    min-height:210px;
+
+
+    min-width: 385px;
+    min-height: 210px;
     background-image: url(../img/about/left%20Background%20Shape.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    
+
 }
+
+/*--------content inner-------*/
+
+.about-us .design .circle-title-content {
+    position: inherit;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.about-us .design .circle-title-content .content-body {
+    margin: 37px 30px;
+    text-align: center;
+}
+
 /**/
 /*
    =================================================================================
-                                       -section
+                                       out-porlfolio-section
    =================================================================================
 */
+
+.out-porlfolio {
+    //height: 1155px;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    background-image: url(../img/ourPortfollo/Tauhid%20sajib%20-%20Fotolia_87677925_M%20copy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+/*
+   =================================================================================
+                                      OurService-section
+   =================================================================================
+*/
+.OurService {
+    background: white;
+    //height: 500px;
+    height: 100vh;
+}
+
+/*
+   =================================================================================
+                                       testimonial-section
+   =================================================================================
+*/
+.testimonial {
+    //height: 500px;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    background-image: url(../img/testimonial/hard-work-with-a-book-picjumbo-com.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+}
+
+/*
+   =================================================================================
+                                       pricing-plan-section
+   =================================================================================
+*/
+.pricingPlan{
+    //inline css
+}
+/*
+   =================================================================================
+                                      contact-us -section
+   =================================================================================
+*/
+.contact-us{    
+    background: black;
+    color: white;
+    height: 200px;
+}
+/*
+   =================================================================================
+                                       our-team-section
+   =================================================================================
+*/
+.our-team{
+    
+    background: white;
+    //height: 500px;    
+    height: 100vh;
+}
 /*
    =================================================================================
                                        -section
    =================================================================================
 */
+
 /*
    =================================================================================
                                        -section
    =================================================================================
 */
-/*
-   =================================================================================
-                                       -section
-   =================================================================================
-*/
+
 /*
    =================================================================================
                                        -section
