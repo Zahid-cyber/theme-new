@@ -70,8 +70,8 @@ svg#Layer_3 {
 body,
 .menu-section,
 .slider-section {
-    //width: 1920px;
-    width: 100%;
+    width: 1920px;
+    //width: 100%;
 }
 
 @media only screen and(max-width:1920px) {
@@ -451,16 +451,38 @@ nav ul li:hover a {
    =================================================================================
 */
 
+
 .out-porlfolio {
-    //height: 1155px;
-    height: 100vh;
+    //min-height: 1155px;
+    //height: 100vh;
     background: rgba(0, 0, 0, 0.5);
     background-image: url(../img/ourPortfollo/Tauhid%20sajib%20-%20Fotolia_87677925_M%20copy.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
+    overflow: hidden;
+    
+    padding-bottom: 150px;
+}
+.out-porlfolio design{
+}
+.out-porlfolio .img-body{
+    position: relative;
+    background: red;
+    width: 1200px;
+    margin: auto;
 }
 
+.out-porlfolio .img-body .img-box{
+    float: left;
+    margin: 15px;
+}
+.out-porlfolio .img-body .img-box:hover{
+}
+.out-porlfolio .img-body img{
+    //float: left;
+    //margin: 15px;
+}
 /*
    =================================================================================
                                       OurService-section
@@ -478,12 +500,13 @@ nav ul li:hover a {
    =================================================================================
 */
 .testimonial {
-    //height: 500px;
-    height: 100vh;
+    height: 500px;
+    //height: 100vh;
     background: rgba(0, 0, 0, 0.5);
     background-image: url(../img/testimonial/hard-work-with-a-book-picjumbo-com.png);
     background-repeat: no-repeat;
     background-size: cover;
+    //background-size: 100%;
     background-blend-mode: overlay;
 }
 }
@@ -501,10 +524,57 @@ nav ul li:hover a {
                                       contact-us -section
    =================================================================================
 */
+
 .contact-us{    
-    background: black;
+    background: rgba(0,0,0,0.9);
+    background-image: url(../img/contact/Tauhid%20sajib%20-%20shutterstock_199107920.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
     color: white;
-    height: 200px;
+    height: 280px;
+    //padding-top: 100px;
+    position: relative;
+}
+.contact-us .middle .m-box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 1100px;
+}
+.contact-us .c-c-box{
+    //display: inline;
+    float: left;
+    margin: 15px;
+    border: 1px solid white;
+    padding: 30px 45px;
+    overflow: hidden;
+    text-align: center;
+}
+.c-c-box-cover{
+    transform: rotate(3deg);
+    font-weight: none;
+}
+.c-c-box-h{
+    position: relative;
+}
+.c-c-box-b{
+    position: relative;
+}
+.contact-us .middle{
+    padding: 5px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: rotate(-3deg);
+}
+
+#contact-svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
 }
 /*
    =================================================================================
