@@ -495,9 +495,101 @@ nav ul li:hover a {
 .OurService {
     background: white;
     //height: 500px;
-    height: 100vh;
+    //height: 100vh;
+    position: relative;
 }
-
+.ourserviceDesignCover{
+    //background: green;
+    height: 780px;
+    margin: 0 0 50px 0;
+    position: relative;
+}
+.vln{
+    border-right: 1px dashed black;
+    height: 780px;
+    width: 0;
+    margin: auto;
+    position: relative;
+}
+/*------------top bottom icon---------*/
+.vln .btn-up{
+    background: black; 
+    border-radius: 50%;
+    border: none; 
+    position: absolute; 
+    top:0; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.vln .btn-down{
+    background: black; 
+    border-radius: 50%;
+    border: none; 
+    position: absolute; 
+    top: 100%;
+    left: 0;
+    transform: translate(-50%,-50%);
+}
+.vln .upp{
+   color: white;
+    font-weight: normal;
+     font-size: 30pt;
+}
+.vln .upp:hover{
+   color: #FEC600;
+}
+/*-----block-------*/
+.block-ln{
+    width: auto;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.block{
+    background: #EEEEEE;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block img{
+    width: 45px;
+    height: auto;
+}
+.block-1{
+   position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.block-2{
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.block-3{    
+   position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.block:hover{
+    background: #FEC600;
+    width: 100px;
+    height: 100px;
+    transition: all 0.2s;
+}
+.block:hover img{
+    width: 60px;
+    transition: all 0.2s;
+}
 /*
    =================================================================================
                                        testimonial-section
