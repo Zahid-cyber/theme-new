@@ -551,7 +551,7 @@ nav ul li:hover a {
     background: #EEEEEE;
     width: 70px;
     height: 70px;
-    overflow: hidden;
+    //overflow: hidden;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -589,6 +589,56 @@ nav ul li:hover a {
 .block:hover img{
     width: 60px;
     transition: all 0.2s;
+}
+.os-content-right{
+    background-image: url(../img/ourService/right-Shape.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 485px;
+    height: 220px;
+    padding-left: 15px;
+    position: absolute;
+    top:50%;
+    left: 150%;
+    transform: translateY(-50%);
+}
+.os-content-left{
+    background-image: url(../img/ourService/left-Shape.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 485px;
+    height: 220px;
+    padding-right: 15px;
+    position: absolute;
+    top:50%;
+    right: 150%;
+    transform: translateY(-50%);
+}
+.os-txt{
+    font-size: 18pt;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.os-txt-right{
+    width: 485px;
+    text-align: left;
+    position: absolute;
+    top:50%;
+    left: 150%;
+    transform: translateY(-50%);
+}
+.os-txt-left{
+    width: 485px;
+    text-align: right;
+    position: absolute;
+    top:50%;
+    right: 150%;
+    transform: translateY(-50%);
+}
+.os-c-p{
+    height: 100%;
+    padding: 60px 30px;
+    font-size: 15pt;
 }
 /*
    =================================================================================
