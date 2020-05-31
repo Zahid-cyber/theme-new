@@ -70,8 +70,8 @@ svg#Layer_3 {
 body,
 .menu-section,
 .slider-section {
-    width: 1920px;
-    //width: 100%;
+    //width: 1920px;
+    width: 100%;
 }
 body{
     
@@ -512,7 +512,7 @@ nav ul li:hover a {
     position: relative;
 }
 /*------------top bottom icon---------*/
-.vln .btn-up{
+.btn-up{
     background: black; 
     border-radius: 50%;
     border: none; 
@@ -521,7 +521,7 @@ nav ul li:hover a {
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.vln .btn-down{
+.btn-down{
     background: black; 
     border-radius: 50%;
     border: none; 
@@ -530,12 +530,12 @@ nav ul li:hover a {
     left: 0;
     transform: translate(-50%,-50%);
 }
-.vln .upp{
+.upp{
    color: white;
     font-weight: normal;
      font-size: 30pt;
 }
-.vln .upp:hover{
+.upp:hover{
    color: #FEC600;
 }
 /*-----block-------*/
@@ -646,7 +646,7 @@ nav ul li:hover a {
    =================================================================================
 */
 .testimonial {
-    height: 500px;
+    height: 950px;
     //height: 100vh;
     background: rgba(0, 0, 0, 0.5);
     background-image: url(../img/testimonial/hard-work-with-a-book-picjumbo-com.png);
@@ -654,9 +654,50 @@ nav ul li:hover a {
     background-size: cover;
     //background-size: 100%;
     background-blend-mode: overlay;
+    padding-top: 190px;
+    padding-bottom: 190px;
+    padding-left: 440px;
 }
+.testimonial .os-content-right{
+    background: none;
+    float: left;
+    background-image: url(../img/testimonial/Shape.png);
+    background-repeat: no-repeat;
+    width: 585px;
+    height: 341px;
+}
+.ts-vln .os-content-right h3{
+    font-size: 20pt;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+.ts-vln .os-content-right h4{
+    font-size: 16pt;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
 }
 
+.ts-vln .os-content-right p{
+    margin-top: 30px;
+}
+.ratting{
+    color: #FEC600;
+}
+.ts-vln{
+    border-right: 1px dashed black;
+    width: 0;
+    height: 100%;
+    position: relative;
+}
+.testimonial .ts-vln .block{
+    background: white;
+}
+.testimonial .ts-vln .block:hover{
+    background: #FEC600;
+}
+.testimonial .ts-vln .block img{
+    width: 100%;
+}
 /*
    =================================================================================
                                        pricing-plan-section
