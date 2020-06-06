@@ -41,6 +41,7 @@ p {
     font-weight: normal;
     line-height: 0;
 }
+
 .first-title-2 {
     padding: 150px 50px 50px;
     font-size: 36px;
@@ -73,9 +74,8 @@ body,
     //width: 1920px;
     width: 100%;
 }
-body{
-    
-}
+
+body {}
 
 @media only screen and(max-width:1920px) {
     nav {
@@ -254,13 +254,14 @@ nav ul li:hover a {
     text-align: center;
 }
 
- .first-title-slide{
+.first-title-slide {
     padding-top: 130px;
     font-size: 36px;
     font-weight: normal;
     line-height: 0;
     color: white;
 }
+
 .second-title-slide {
     font-size: 55px;
     color: #FEC600;
@@ -464,12 +465,13 @@ nav ul li:hover a {
     background-size: cover;
     background-blend-mode: overlay;
     overflow: hidden;
-    
+
     padding-bottom: 150px;
 }
-.out-porlfolio design{
-}
-.out-porlfolio .img-body{
+
+.out-porlfolio design {}
+
+.out-porlfolio .img-body {
     position: relative;
     width: 1200px;
     margin: auto;
@@ -478,15 +480,17 @@ nav ul li:hover a {
     column-gap: 30px;
 }
 
-.out-porlfolio .img-body .img-box{
+.out-porlfolio .img-body .img-box {
     float: left;
     margin: 15px 0;
     position: relative;
 }
-.out-porlfolio .img-body img{
+
+.out-porlfolio .img-body img {
     //float: left;
     //margin: 15px;
 }
+
 /*
    =================================================================================
                                       OurService-section
@@ -498,56 +502,64 @@ nav ul li:hover a {
     //height: 100vh;
     position: relative;
 }
-.ourserviceDesignCover{
+
+.ourserviceDesignCover {
     //background: green;
     height: 780px;
     margin: 0 0 50px 0;
     position: relative;
 }
-.vln{
+
+.vln {
     border-right: 1px dashed black;
     height: 780px;
     width: 0;
     margin: auto;
     position: relative;
 }
+
 /*------------top bottom icon---------*/
-.btn-up{
-    background: black; 
+.btn-up {
+    background: black;
     border-radius: 50%;
-    border: none; 
-    position: absolute; 
-    top:0; 
+    border: none;
+    position: absolute;
+    top: 0;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
-.btn-down{
-    background: black; 
+
+.btn-down {
+    background: black;
     border-radius: 50%;
-    border: none; 
-    position: absolute; 
+    border: none;
+    position: absolute;
     top: 100%;
     left: 0;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
-.upp{
-   color: white;
+
+.upp {
+    color: white;
     font-weight: normal;
-     font-size: 30pt;
+    font-size: 30pt;
 }
-.upp:hover{
-   color: #FEC600;
+
+.upp:hover {
+    color: #FEC600;
 }
+
 /*-----block-------*/
-.block-ln{
+.block-ln {
     width: auto;
     height: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
-.block{
+
+.block {
     background: #EEEEEE;
     width: 70px;
     height: 70px;
@@ -557,40 +569,47 @@ nav ul li:hover a {
     justify-content: center;
     align-items: center;
 }
-.block img{
+
+.block img {
     width: 45px;
     height: auto;
 }
-.block-1{
-   position: absolute;
+
+.block-1 {
+    position: absolute;
     top: 15%;
     left: 50%;
     transform: translateX(-50%);
 }
-.block-2{
-   position: absolute;
+
+.block-2 {
+    position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    
+    transform: translate(-50%, -50%);
+
 }
-.block-3{    
-   position: absolute;
+
+.block-3 {
+    position: absolute;
     bottom: 15%;
     left: 50%;
     transform: translateX(-50%);
 }
-.block:hover{
+
+.block:hover {
     background: #FEC600;
     width: 100px;
     height: 100px;
     transition: all 0.2s;
 }
-.block:hover img{
+
+.block:hover img {
     width: 60px;
     transition: all 0.2s;
 }
-.os-content-right{
+
+.os-content-right {
     background-image: url(../img/ourService/right-Shape.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -598,11 +617,12 @@ nav ul li:hover a {
     height: 220px;
     padding-left: 15px;
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 150%;
     transform: translateY(-50%);
 }
-.os-content-left{
+
+.os-content-left {
     background-image: url(../img/ourService/left-Shape.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -610,36 +630,41 @@ nav ul li:hover a {
     height: 220px;
     padding-right: 15px;
     position: absolute;
-    top:50%;
+    top: 50%;
     right: 150%;
     transform: translateY(-50%);
 }
-.os-txt{
+
+.os-txt {
     font-size: 18pt;
     font-weight: normal;
     text-transform: uppercase;
 }
-.os-txt-right{
+
+.os-txt-right {
     width: 485px;
     text-align: left;
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 150%;
     transform: translateY(-50%);
 }
-.os-txt-left{
+
+.os-txt-left {
     width: 485px;
     text-align: right;
     position: absolute;
-    top:50%;
+    top: 50%;
     right: 150%;
     transform: translateY(-50%);
 }
-.os-c-p{
+
+.os-c-p {
     height: 100%;
     padding: 60px 30px;
     font-size: 15pt;
 }
+
 /*
    =================================================================================
                                        testimonial-section
@@ -658,7 +683,8 @@ nav ul li:hover a {
     padding-bottom: 190px;
     padding-left: 440px;
 }
-.testimonial .os-content-right{
+
+.testimonial .os-content-right {
     background: none;
     float: left;
     background-image: url(../img/testimonial/Shape.png);
@@ -666,54 +692,200 @@ nav ul li:hover a {
     width: 585px;
     height: 341px;
 }
-.ts-vln .os-content-right h3{
+
+.ts-vln .os-content-right h3 {
     font-size: 20pt;
     font-weight: 500;
     font-family: 'Raleway', sans-serif;
 }
-.ts-vln .os-content-right h4{
+
+.ts-vln .os-content-right h4 {
     font-size: 16pt;
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
 }
 
-.ts-vln .os-content-right p{
+.ts-vln .os-content-right p {
     margin-top: 30px;
 }
-.ratting{
+
+.ratting {
     color: #FEC600;
 }
-.ts-vln{
+
+.ts-vln {
     border-right: 1px dashed black;
     width: 0;
     height: 100%;
     position: relative;
 }
-.testimonial .ts-vln .block{
+
+.testimonial .ts-vln .block {
     background: white;
 }
-.testimonial .ts-vln .block:hover{
+
+.testimonial .ts-vln .block:hover {
     background: #FEC600;
 }
-.testimonial .ts-vln .block img{
+
+.testimonial .ts-vln .block img {
     width: 100%;
 }
+
 /*
    =================================================================================
                                        pricing-plan-section
    =================================================================================
 */
-.pricingPlan{
+.pricingPlan {
+
+    background: white;
+    height: auto;
+    overflow: hidden;
+
     //inline css
+    padding-bottom: 150px;
+    position: relative;
 }
+
+.pp-content-cover {
+    position: relative;
+    margin-top: 60px;
+}
+/*-------pricing plan box------------*/
+.pp-content {
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.pp-content,
+.pp-content .content-box {
+    height: 450px;
+}
+
+.pp-content .content-box {
+    background: #F1F1F1;
+    width: 370px;
+    margin: 15px;
+    display: inline-block;
+    position: relative;
+}
+
+/*-------pricing plan box circle------------*/
+.pp-content .content-box .pp-circle {
+    padding: 5px;
+    background: white;
+    border-radius: 50%;
+    border: 1px solid black;    
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle-content {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #444444;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.circle-content .circle-txt {
+    text-align: center;
+}
+
+.circle-content h4 {
+    font-size: 29px;
+    font-weight: normal;
+}
+
+.circle-content h5 {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+/*-------pricing plan box body text------------*/
+.pp-body b {
+    display: block;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+.pp-body {
+    margin-top: 65px;
+    text-align: center;
+}
+
+/*-------------pp-svg---------------*/
+
+.ppSvgTopTxt {
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20pt;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+.ppSvgtop {
+    position: relative;
+}
+
+.ppSvgBttm {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ppSvgBttm .ppSvgBttmTxt {
+    position: absolute;
+    font-size: 16pt;
+    color: white;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*----------------hover-----------*/
+.pp-content .content-box:hover .circle-content,
+.pp-content .content-box:hover .ppSvgBttm .ppSvgBttmTxt {
+    background: #FEC600;
+    color: #222222;
+}
+.pp-content .content-box:hover .pp-circle{
+    border-color: #FEC600;
+}
+.pp-content .content-box:hover .ppSvgBttm .ppSvgBttmTxt,
+.pp-content .content-box:hover .ppSvgTopTxt {
+    color: #222222;
+}
+
+.pp-content .content-box:hover .ppSvgtop path,
+.pp-content .content-box:hover .ppSvgBttm path {
+    fill: #FEC600;
+}
+
 /*
    =================================================================================
                                       contact-us -section
    =================================================================================
 */
 
-.contact-us{    
-    background: rgba(0,0,0,0.9);
+.contact-us {
+    background: rgba(0, 0, 0, 0.9);
     background-image: url(../img/contact/Tauhid%20sajib%20-%20shutterstock_199107920.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -723,7 +895,8 @@ nav ul li:hover a {
     //padding-top: 100px;
     position: relative;
 }
-.contact-us .middle{
+
+.contact-us .middle {
     padding: 5px;
     width: 100%;
     position: absolute;
@@ -731,14 +904,15 @@ nav ul li:hover a {
     transform: rotate(-3deg);
 }
 
-.contact-us .middle .m-box{
+.contact-us .middle .m-box {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 1100px;
 }
-.contact-us .c-c-box{
+
+.contact-us .c-c-box {
     //display: inline;
     float: left;
     margin: 15px;
@@ -748,33 +922,39 @@ nav ul li:hover a {
     text-align: center;
     transform: skewX(-3deg);
 }
-.c-c-box-cover{
+
+.c-c-box-cover {
     transform: rotate(3deg);
     font-weight: none;
 }
-.c-c-box-h{
+
+.c-c-box-h {
     position: relative;
 }
-.c-c-box-b{
+
+.c-c-box-b {
     position: relative;
 }
-#contact-svg{
+
+#contact-svg {
     position: absolute;
     top: 0;
     left: 0;
-    
+
 }
+
 /*
    =================================================================================
                                        our-team-section
    =================================================================================
 */
-.our-team{
-    
+.our-team {
+
     background: white;
     //height: 500px;    
     height: 100vh;
 }
+
 /*
    =================================================================================
                                        -section
@@ -796,133 +976,134 @@ nav ul li:hover a {
 
 /* general reset/setup styling for icons - needed on all */
 .icon::before {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  display: inline-block; 
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  line-height: 1;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
 }
 
 /* defining the right font-family/font-face for each style */
 .icon-solid::before,
 .icon-regular::before,
 .icon-light::before {
-  font-family: "Font Awesome 5 Pro";
+    font-family: "Font Awesome 5 Pro";
 }
 
 .icon-brand::before {
-  font-family: "Font Awesome 5 Brands";
+    font-family: "Font Awesome 5 Brands";
 }
 
 /* defining the right weight for each style */
 .icon-solid::before {
-  font-weight: 900;
+    font-weight: 900;
 }
 
 .icon-regular::before {
-  font-weight: 400;
+    font-weight: 400;
 }
 
 .icon-light::before {
-  font-weight: 300;
+    font-weight: 300;
 }
 
 .icon-brand::before {
-  font-weight: 400;
+    font-weight: 400;
 }
 
 /* defining the right unicode values for each icon */
 .icon-award::before {
-  content: "\f559";
+    content: "\f559";
 }
 
 .icon-adobe::before {
-  content: "\f778";
+    content: "\f778";
 }
 
 
 /* duotone icons follow a similar setup, but require use of the ::after pseudo-element and more styling setup */
 .icon-duotone {
-  position: relative;
-  padding-left: 1.25em; /* make space for the width of the absolutely positioned icon */
+    position: relative;
+    padding-left: 1.25em;
+    /* make space for the width of the absolutely positioned icon */
 }
 
 .icon-duotone::before,
 .icon-duotone::after {
-  font-family: "Font Awesome 5 Duotone";
-  font-weight: 900;
-  
-  /* position both layers of the icon to the left, set our fixed-width width, horizontally center layers, and then vertically align them so they flex with different line heights */
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 1.25em;
-  text-align: center;
+    font-family: "Font Awesome 5 Duotone";
+    font-weight: 900;
+
+    /* position both layers of the icon to the left, set our fixed-width width, horizontally center layers, and then vertically align them so they flex with different line heights */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.25em;
+    text-align: center;
 }
 
 .icon-duotone::before {
-  color: var(--fa-primary-color, inherit);
-  opacity: 1;
-  opacity: var(--fa-primary-opacity, 1.0);
+    color: var(--fa-primary-color, inherit);
+    opacity: 1;
+    opacity: var(--fa-primary-opacity, 1.0);
 }
 
 .icon-duotone::after {
-  color: var(--fa-secondary-color, inherit);
-  opacity: var(--fa-secondary-opacity, 0.4);
+    color: var(--fa-secondary-color, inherit);
+    opacity: var(--fa-secondary-opacity, 0.4);
 }
 
 /* we need to define the two layers of a duotone icon */
 .icon-duotone.icon-award::after {
-  content: "\10f559";
+    content: "\10f559";
 }
 
 .icon-duotone.icon-award::before {
-  content: "\f559";
+    content: "\f559";
 }
 
 
 /* demo styling */
 * {
-  /* resetting the box model for all elements */
-  box-sizing: border-box;
+    /* resetting the box model for all elements */
+    box-sizing: border-box;
 }
 
 .demo-frame {
-  /* making a nice frame/layout for examples */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: -1rem;
-  padding: 3rem;
-  min-height: 100vh;
-  color: rgb(52, 58, 64);
+    /* making a nice frame/layout for examples */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -1rem;
+    padding: 3rem;
+    min-height: 100vh;
+    color: rgb(52, 58, 64);
 }
 
 .demo-example {
-  /* individual demo example styling */
-  margin-bottom: 1rem;
+    /* individual demo example styling */
+    margin-bottom: 1rem;
 }
 
 .demo-icon-list {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
 .demo-icon {
-  margin: 0;
-  padding: 1.5rem 1rem;
+    margin: 0;
+    padding: 1.5rem 1rem;
 }
 
 .icon::before {
-  margin-right: 0.5rem;
+    margin-right: 0.5rem;
 }
