@@ -1028,7 +1028,8 @@ nav ul li:hover a {
 
 .ot-design .box .imgDetailsBox .social {
     display: inline-block;
-    margin: 12.5px;
+    //margin: 12.5px;
+    margin: auto;
 }
 
 .ot-design .box .imgDetailsBox .social .socialFab {
