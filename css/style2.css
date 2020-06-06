@@ -860,10 +860,10 @@ nav ul li:hover a {
 }
 
 /*----------------hover-----------*/
-.pp-content .content-box:hover .circle-content,
-.pp-content .content-box:hover .ppSvgBttm .ppSvgBttmTxt {
+.pp-content .content-box:hover .circle-content{
     background: #FEC600;
     color: #222222;
+    transition: 0.2s;
 }
 .pp-content .content-box:hover .pp-circle{
     border-color: #FEC600;
@@ -876,6 +876,7 @@ nav ul li:hover a {
 .pp-content .content-box:hover .ppSvgtop path,
 .pp-content .content-box:hover .ppSvgBttm path {
     fill: #FEC600;
+    transition: 0.2s;
 }
 
 /*
