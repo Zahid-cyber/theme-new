@@ -975,16 +975,6 @@ nav ul li:hover a {
     position: relative;    
     display: inline-table;
 }
-.zoom{
-    visibility: hidden;
-}
-.zoom .btnZoom{
-    box-sizing: content-box;
-    font-size: 18pt;
-    padding: 10px;
-    background: white;
-    border-radius: 50%;
-}
 
 .ot-design .box .imgSvgBox {
     position: relative;
@@ -1042,9 +1032,14 @@ nav ul li:hover a {
 }
 
 /*---------hover----*/
-.ot-design .box:hover .zoom{
-    visibility: visible;
-}
+.ot-design .box:hover .imgSvgBox:before{
+    content: '+';
+    position: absolute;
+    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}   
 .ot-design .box:hover .imgSvgBox {    
     background: #FEC600;
 }
