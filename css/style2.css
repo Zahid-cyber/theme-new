@@ -1073,11 +1073,30 @@ nav ul li:hover a {
                                        poweredBy-section
    =================================================================================
 */
-.poweredBy {
+.OurPartners {
     height: 300px;
     background-color: #F1F1F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.opBar{
+    padding: 5px;
+    transform: rotateZ(-3.6deg);
+}
+.opColomn{
+    border: 1px solid black;
+    padding: 30px 14px; 
+    margin: 15px;
+    float: left;
+}
+.opColomn img{
+    transform: rotateZ(3.6deg);
+}
+/*-----------hover----------------*/
+.opColomn:hover{
+    border-color: #FEC600;
+}
 /*
    =================================================================================
                                        logoBar-section
