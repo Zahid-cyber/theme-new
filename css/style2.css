@@ -1099,14 +1099,35 @@ nav ul li:hover a {
    =================================================================================
 */
 .info{
-    height: 500px;
+    height: 300px;
     background: #222222;
+    position: relative;
 }
 /*
    =================================================================================
-                                       -section
+                                       footer-section
    =================================================================================
 */
+footer{
+    position: relative;
+    height: 155px;
+    background: #444444;
+    color: white;
+    font-size: 13pt;
+    font-family: lato;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer h6{
+    
+    font-size: 13pt;
+}
+footer abbr{
+    text-decoration: none;
+    color: #FEC600;
+}
 /*
    =================================================================================
                                        -section
