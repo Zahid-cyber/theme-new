@@ -704,9 +704,13 @@ nav ul li:hover a {
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
 }
+@font-face{
+    font-family:AutografPERSONALUSEONLY;
+    src: url(../assets/font/Autograf_PersonalUseOnly.ttf);
+}
 .ts-vln .os-content-right h6 {
     font-size: 16pt;
-    font-family: 'Meie Script', cursive;
+    font-family: AutografPERSONALUSEONLY;
     font-weight: normal;
     float: right;
 }
