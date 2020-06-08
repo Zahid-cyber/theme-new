@@ -1181,9 +1181,59 @@ footer abbr {
 
 /*
    =================================================================================
-                                       -section
+                                       follow-section
    =================================================================================
 */
+.follow{
+    position: relative;
+    background: #222222;
+    color: white;
+    padding: 60px 0 30px 0;
+    //display: flex;
+   //justify-content: center;
+}
+.follow h4{
+    font-family: Raleway;
+    font-size: 20pt;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*--------------socials----------*/
+.follow .socials {
+    width: 450px;
+    margin: auto;
+    padding:30px;
+    display: flex;
+    justify-content: center;
+}
+
+.follow .social {
+    display: inline-block;
+    //margin: 12.5px;
+    margin: auto;
+}
+
+.follow .social .socialFab {
+    font-size: 18px;
+    padding: 8px;
+    box-sizing: content-box;
+    color: #444444;
+    background: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    
+    
+    width: 35px;
+    height: 35px;
+    margin: auto;
+}
+
+.follow .social .socialFab:hover {
+    background: #FEC600;
+    border-color: #FEC600;
+    transition: 0.2s;
+}
 /*
    =================================================================================
                                        -section
